@@ -17,7 +17,7 @@
       "key": "guangsu",
       "name": "⚡光速资源 | 极速切片",
       "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/json",
       "searchable": 1,
       "quick": 1,
       "filterable": 1
@@ -26,7 +26,7 @@
       "key": "xinlang",
       "name": "🌊新浪资源 | 老牌综合",
       "type": 1,
-      "api": "https://api.xinlangapi.com/api.php/provide/vod/",
+      "api": "https://api.xinlangapi.com/api.php/provide/vod/json",
       "searchable": 1,
       "quick": 1,
       "filterable": 1
@@ -35,7 +35,7 @@
       "key": "tiyu_hongniu",
       "name": "⚽红牛体育 | 足球/NBA/录像",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quick": 1,
       "filterable": 1
