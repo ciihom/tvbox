@@ -16,7 +16,7 @@
     {
       "key": "guangsu",
       "name": "⚡光速资源 | 极速切片",
-      "type": 0,
+      "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quick": 1,
