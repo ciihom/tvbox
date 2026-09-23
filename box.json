@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/jar/spider.jar",
+  "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/jar/custom_spider.jar",
   "sites": [
     {
       "key": "bili_culture",
@@ -192,6 +192,36 @@
       "searchable": 1,
       "quick": 1,
       "filterable": 1
+    },
+    {
+      "key": "csp_Sir88Guard",
+      "name": "⚽ 88看球┃录像回放",
+      "type": 3,
+      "api": "csp_Sir88Guard",
+      "jar": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/jar/fan.txt",
+      "searchable": 0,
+      "changeable": 0,
+      "style": { "type": "list" }
+    },
+    {
+      "key": "drpy_js_JRS",
+      "name": "⚽ JRS┃赛事回放",
+      "type": 3,
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/jrk.js",
+      "style": { "type": "list" }
+    },
+    {
+      "key": "bili_sports_replay",
+      "name": "🏀 B站┃体育全场录像",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "type": "NBA全场录像#足球全场回放#欧冠录像#英超全场"
+      }
     }
   ]
 }
