@@ -1,194 +1,197 @@
-[
-  {
-    "key": "guangsu",
-    "name": "⚡光速资源 | 极速切片",
-    "type": 1,
-    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "xinlang",
-    "name": "🌊新浪资源 | 老牌综合",
-    "type": 1,
-    "api": "https://api.xinlangapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "tiyu_hongniu",
-    "name": "⚽红牛体育 | 足球/NBA/录像",
-    "type": 1,
-    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "tiyu_jisu",
-    "name": "🏀极速体育 | 赛事集锦/快切",
-    "type": 1,
-    "api": "https://jszyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "jilupian_tiankong",
-    "name": "🌍天空纪录片 | 人文/地理/自然",
-    "type": 1,
-    "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "jilupian_baidu",
-    "name": "🏛️百度纪录片 | 高清/央视纪实",
-    "type": 1,
-    "api": "https://api.apibdzy.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "liangzi",
-    "name": "⚛️量子资源 | 高清画质/访谈",
-    "type": 1,
-    "api": "https://cj.lziapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "bili_culture",
-    "name": "📺B站专区 | 深度访谈/纪录片",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1,
-    "ext": {
-      "categories": "纪录片#访谈#文化#体育"
+{
+  "spider": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/main/jar/spider.jar",
+  "sites": [
+    {
+      "key": "bili_culture",
+      "name": "📺B站专区 | 深度访谈/纪录片",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1,
+      "ext": {
+        "categories": "纪录片#访谈#文化#体育"
+      }
+    },
+    {
+      "key": "guangsu",
+      "name": "⚡光速资源 | 极速切片",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xinlang",
+      "name": "🌊新浪资源 | 老牌综合",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tiyu_hongniu",
+      "name": "⚽红牛体育 | 足球/NBA/录像",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tiyu_jisu",
+      "name": "🏀极速体育 | 赛事集锦/快切",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jilupian_tiankong",
+      "name": "🌍天空纪录片 | 人文/地理/自然",
+      "type": 1,
+      "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jilupian_baidu",
+      "name": "🏛️百度纪录片 | 高清/央视纪实",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "liangzi",
+      "name": "⚛️量子资源 | 高清画质/访谈",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "feifan",
+      "name": "💃非凡资源 | 秒播抗封",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "suoni",
+      "name": "📹索尼资源 | 影院大片",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "baofeng",
+      "name": "🌪️暴风资源 | 综合/卫视访谈",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wolong",
+      "name": "🐉卧龙资源 | 国产热播",
+      "type": 1,
+      "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "yinghua",
+      "name": "🌸樱花资源 | 动漫二次元",
+      "type": 1,
+      "api": "https://m3u8.yhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kudian_duanju",
+      "name": "📱酷点短剧 | 微短剧/网文剧",
+      "type": 1,
+      "api": "https://kudian10.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "huohu",
+      "name": "🦊火狐资源 | 美剧/韩剧/海外",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "shandian",
+      "name": "⚡闪电资源 | 极速更新",
+      "type": 1,
+      "api": "https://sdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kuaiche",
+      "name": "🏎️快车资源 | 经典老剧/港台",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ikun",
+      "name": "🏀iKun资源 | 网络热播",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "youzhi",
+      "name": "💎优质资源 | 1080P原盘",
+      "type": 1,
+      "api": "https://api.yzzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "wuming",
+      "name": "🥷无名资源 | 独播备用",
+      "type": 1,
+      "api": "https://api.wumingapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
+    },
+    {
+      "key": "leshi",
+      "name": "📺乐视资源 | 备用源",
+      "type": 1,
+      "api": "https://leshiapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quick": 1,
+      "filterable": 1
     }
-  },
-  {
-    "key": "feifan",
-    "name": "💃非凡资源 | 秒播抗封",
-    "type": 1,
-    "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "suoni",
-    "name": "📹索尼资源 | 影院大片",
-    "type": 1,
-    "api": "https://suoniapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "baofeng",
-    "name": "🌪️暴风资源 | 综合/卫视访谈",
-    "type": 1,
-    "api": "https://bfzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "wolong",
-    "name": "🐉卧龙资源 | 国产热播",
-    "type": 1,
-    "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "yinghua",
-    "name": "🌸樱花资源 | 动漫二次元",
-    "type": 1,
-    "api": "https://m3u8.yhzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "kudian_duanju",
-    "name": "📱酷点短剧 | 微短剧/网文剧",
-    "type": 1,
-    "api": "https://kudian10.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "huohu",
-    "name": "🦊火狐资源 | 美剧/韩剧/海外",
-    "type": 1,
-    "api": "https://hhzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "shandian",
-    "name": "⚡闪电资源 | 极速更新",
-    "type": 1,
-    "api": "https://sdzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "kuaiche",
-    "name": "🏎️快车资源 | 经典老剧/港台",
-    "type": 1,
-    "api": "https://caiji.kuaichezy.org/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "ikun",
-    "name": "🏀iKun资源 | 网络热播",
-    "type": 1,
-    "api": "https://ikunzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "youzhi",
-    "name": "💎优质资源 | 1080P原盘",
-    "type": 1,
-    "api": "https://api.yzzyapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "wuming",
-    "name": "🥷无名资源 | 独播备用",
-    "type": 1,
-    "api": "https://api.wumingapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  },
-  {
-    "key": "leshi",
-    "name": "📺乐视资源 | 备用源",
-    "type": 1,
-    "api": "https://leshiapi.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quick": 1,
-    "filterable": 1
-  }
-]
+  ]
+}
